@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>[영화/생활] ‘범’ 상치 않은 릴레이 스페셜 찬스</title>
+    <base href="https://www.lge.co.kr/">
+    <link rel="stylesheet" type="text/css" href="/lgekor/asset/app/css/jquery/jquery-ui.min.css" />
+    <link rel="stylesheet" type="text/css" href="/lgekor/asset/app/css/lib/selectordie.css" />
+    <link rel="stylesheet" type="text/css" href="/lgekor/asset/app/css/lib/selectordie_theme_02.css" />
+    <link rel="stylesheet" type="text/css" href="/lgekor/asset/app/css/lib/swiper.min.css" />
+    <link rel="stylesheet" type="text/css" href="/lgekor/asset/app/css/default.css" /> <!-- css 리셋 및 기본정의 -->
+    <link rel="stylesheet" type="text/css" href="/lgekor/asset/app/css/common.css" /> <!-- css 레이아웃 및 공통정의 -->
+    <link rel="stylesheet" type="text/css" href="/lgekor/asset/app/css/event.css" /> <!-- css 대메뉴별 컨텐츠 정의 (membership : 멤버십 / event : 혜택,이벤트 / rental : 렌탈, 케어 / main : 메인) -->
+    <script type="text/javascript" src="/lgekor/asset/app/js/jquery/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="/lgekor/asset/app/js/jquery/jquery-ui.min.js"></script>
+</head>
+
+<body>
+    <!-- id값은 각 페이지별 화면아이디를 사용합니다. -->
+    <section id="LGEA-F-020" class="defaultWrap">
+        <header class="defualtHeader">
+            <a href="#none" class="prevPageIconBtn"><span class="blind">이전페이지 이동</span></a>
+            <h1 class="contentsTit">특별한 혜택</h1>
+            <a href="javascript:goPush();" class="alarmIconBtn"><span>알림</span></a>
+            <section class="membershipInfoWrap">
+                <h2 class="membershipIconTit"><button type="button">나의 멤버십 보기</button></h2>
+                <div class="container">
+                    <!-- //로그인 상태일 때 -->
+                    <article class="typeLogin" style="display:none;">
+                        <strong class="membershipPointTxt"><em class="nameTxt">홍길동</em>님의 보유포인트</strong>
+                        <a href="#none" class="membershipPointBtn">128,000</a>
+                        <a href="#none" class="barcodeMembership">
+                            <input type="hidden" class="barcodeValue" value="3345466756876" />
+                            <div class="barcodeArea"></div>
+                        </a>
+                    </article>
+                    <!-- 로그인 상태일 때// -->
+
+                    <!-- //로그아웃 상태일 때 -->
+                    <div class="typeLogout">
+                        <p class="LogoutIconTxt">멤버십 로그인이 필요합니다.</p>
+                        <div class="columnsbtnArea">
+                            <a href="#none" class="defaultFormBtn">멤버십 가입</a>
+                            <a href="#none" class="defaultSubFormBtn">로그인</a>
+                        </div>
+                    </div>
+                    <!-- 로그아웃 상태일 때// -->
+                </div>
+            </section>
+
+            <section class="globalMenuWrap">
+                <h2 class="globalMenuIconTit"><button type="button">전체메뉴</button></h2>
+                <div class="container">
+                    <button type="button" class="menuCloseIconBtn"></button>
+                    <div class="utillArea">
+                        <a href="#none" class="homeIconBtn"></a>
+                        <a href="#none" class="alarmIconBtn"></a>
+                        <a href="#none" class="secttingIconBtn"></a>
+                    </div>
+
+                    <div class="scrollAuto-y">
+                        <nav class="globalMenuList">
+                            <ul class="gnbList">
+                                <li>
+                                    <button type="button" class="gnbListBtn">멤버십</button>
+                                    <ul class="snbList">
+                                        <li><a href="#none" class="snbListBtn">멤버십 소개</a></li>
+                                        <li><a href="#none" class="snbListBtn">멤버십 가입</a></li>
+                                        <li><a href="#none" class="snbListBtn">나의 멤버십</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <button type="button" class="gnbListBtn">고객혜택</button>
+                                    <ul class="snbList">
+                                        <li><a href="#none" class="snbListBtn">특별한 혜택</a></li>
+                                        <li><a href="#none" class="snbListBtn">제품별 이벤트</a></li>
+                                        <li><a href="#none" class="snbListBtn">당첨자 발표</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <button type="button" class="gnbListBtn">렌탈&케어</button>
+                                    <ul class="snbList">
+                                        <li><a href="#none" class="snbListBtn">렌탈상품</a></li>
+                                        <li><a href="#none" class="snbListBtn">케어서비스</a></li>
+                                        <li><a href="#none" class="snbListBtn">나의 렌탈·케어</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#none" class="gnbListBtn">매장안내</a></li>
+                                <li><a href="#none" class="gnbListBtn">공지사항</a></li>
+                            </ul>
+                        </nav>
+
+                        <div class="shortcutArea">
+                            <strong class="shortcutTit">서비스 바로가기</strong>
+                            <div class="container">
+                                <a href="#none" class="shortcutBtn">LG전자</a>
+                                <a href="#none" class="shortcutBtn">고객서비스</a>
+                                <a href="#none" class="shortcutBtn">베스트샵</a>
+                                <a href="#none" class="shortcutBtn">렌탈&케어</a>
+                                <a href="#none" class="shortcutBtn">온라인샵</a>
+                                <a href="#none" class="shortcutBtn">B2B</a>
+                                <a href="#none" class="shortcutBtn">LG ThinkQ</a>
+                                <a href="#none" class="shortcutBtn">회사소개</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+
+        <!-- 2024-02-11 -->
+        <article class="defaultBoardView">
+            <header class="defaultBoardHeader">
+                <h2 class="defaultBoardTit">&lsqb;영화/생활&rsqb;‘범’ 상치 않은 릴레이 스페셜 찬스</h2>
+                <span class="dateTxt" id="eventDate"><span class="subTit">응모 기간<span class="landmark" aria-hidden="true">|</span></span>2024-01-18 ~ 2024-01-22</span>
+                <button type="button" class="btnShare" onclick="javascript:goEventShareUrl();"><span>공유</span></button>
+            </header>
+
+            <style>
+                .luckydrawList2 {
+                    padding: 9.86vw 5.55vw !important;
+                }
+
+                .luckydrawList2 li {
+                    flex-basis: 100%;
+                }
+
+                .luckydrawList2 li {
+                    margin-left: 0;
+                    position: relative;
+                }
+
+                .luckydrawList2 a {
+                    position: absolute;
+                    bottom: 11.73vw;
+                    right: 10.41vw;
+                    width: 28.26vw;
+                    height: 4.86vw;
+                }
+
+                .luckydrawList2 li:nth-child(even) a {
+                    left: 10.41vw;
+                }
+
+                .luckydrawList2 li a:last-child {
+                    width: 43.21vw;
+                    height: 49.62vw;
+                    top: 0;
+                    left: 0;
+                }
+
+                .luckydrawList2 li:nth-child(even) a:last-child {
+                    left: auto;
+                    right: 0;
+                }
+            </style>
+
+            <div class="defaultBoardContents">
+                <div class="eventThumbnailView">
+                    <div class="boradDetail" style="padding: 0 5.55vw;border:none;font-size:0;">
+                        <div class="imgArea fullSize">
+                            <img src="/lgekor/asset/app/images/contents/event/2022/02/img_event_luckydraw9_01.jpg" alt="하단참조" />
+                            <div class="blind">
+                                <strong>22년 2월 반값 할인 이벤트</strong>
+                                <p>22년 2월 2런 2득2</p>
+                                <strong>응모하기 50%</strong>
+                            </div>
+                        </div>
+
+                        <div class="imgArea fullSize giftCardImg">
+                            <img src="/lgekor/asset/app/images/contents/event/2022/02/img_event_luckydraw9_02.jpg" alt="※ 본 이벤트는 마케팅 수신동의 고객에 한하여 참여 가능합니다. 마케팅활용동의(문자필수) 체크 후 이벤트에 참여해주세요." />
+                            <div class="blind">
+                                <ol>
+                                    <li>1. 원하는 제품 반값 할인 쿠폰 응모하기 (2월16일~20일)</li>
+                                    <li>2. 응모자 추첨 (당첨자 안내 2월 25일)</li>
+                                    <li>3. 문자로 쿠폰 받기 (추첨 후 당첨자분께 문자로 50% 할인쿠폰 일괄 전송합니다)</li>
+                                    <li>4. 당첨자분에게 한해 구매 (구매기간 : ~ 2월 28일 까지) LG 전자 멤버십 앱 배너를 통해 구매 페이지 이동하여 쿠폰 사용하여 물품 구매 (제품별 중복 당첨시 각각 하시면 됩니다)</li>
+                                </ol>
+                                <p>※ 본 이벤트는 마케팅 수신동의 고객에 한하여 참여 가능합니다. 마케팅활용동의(문자필수) 체크 후 이벤트에 참여해주세요.</p>
+                            </div>
+
+                            <!-- <a href="javascript:void(0);" class="btn_go_giftcard" onclick="javascript:unifyIdCk();" style="width: 47.91vw;height:5.83vw;bottom: 14.55vw;"><span class="blind">마케팅 활용동의 변경하러 가기</span></a> -->
+                        </div>
+
+                        <div class="hotdealContents">
+                            <ul class="luckydrawList2 type2" style="background: #fff;">
+                                <li data-evt-date="2022-3-14">
+                                    <div class="luckyInner">
+                                        <img src="/lgekor/asset/app/images/contents/event/2022/02/img_event_luckydraw9_03.jpg" alt="하단참조" />
+                                        <div class="blind">
+                                            <dl>
+                                                <dt>[보2스캐디]</dt>
+                                                <dd>SL2 GPS 레2저 골프거리측정기</dd>
+                                                <dd>최저가 : 949,000원</dd>
+                                                <dd>59% 할인 적용가 : 384,500원</dd>
+                                            </dl>
+                                        </div>
+                                        <a href="javascript:void(0);" onclick="entryEvtCouponSubmit('1');" title="새창" class="product"><img src="/lgekor/asset/app/images/contents/event/2022/02/img_event_luckydraw9_10.jpg" alt="응모하기" /></a>
+                                        <!-- <a href="javascript:goUrlOnNewBrowser('http://www.martsmart.shop/shop_view/?idx=1036');" title="새창" class="product"><img src="/lgekor/asset/app/images/contents/event/2022/02/img_event_luckydraw9_11.jpg" alt="구매하기" /></a> -->
+
+                                        <a href="javascript:goUrlOnNewBrowser('http://www.martsmart.shop/shop_view/?idx=1036');" title="새창" class="product"></a>
+                                    </div>
+                                </li>
+                                <li data-evt-date="2022-3-28">
+                                    <div class="luckyInner">
+                                        <img src="/lgekor/asset/app/images/contents/event/2022/02/img_event_luckydraw9_04.jpg" alt="하단참조" />
+                                        <div class="blind">
+                                            <dl>
+                                                <dt>[모슈]</dt>
+                                                <dd>핫플레2트 [색상:아2보리]</dd>
+                                                <dd>최저가 : 271,000원</dd>
+                                                <dd>81% 할인 적용가 : 50,000원</dd>
+                                            </dl>
+                                        </div>
+                                        <a href="javascript:void(0);" onclick="entryEvtCouponSubmit('1');" title="새창" class="product"><img src="/lgekor/asset/app/images/contents/event/2022/02/img_event_luckydraw9_10.jpg" alt="응모하기" /></a>
+                                        <!-- <a href="javascript:goUrlOnNewBrowser('http://www.martsmart.shop/shop_view/?idx=1037');" title="새창" class="product"><img src="/lgekor/asset/app/images/contents/event/2022/02/img_event_luckydraw9_11.jpg" alt="구매하기" /></a> -->
+
+                                        <a href="javascript:goUrlOnNewBrowser('http://www.martsmart.shop/shop_view/?idx=1037');" title="새창" class="product"></a>
+                                    </div>
+                                </li>
+                                <li data-evt-date="2022-3-28">
+                                    <div class="luckyInner">
+                                        <img src="/lgekor/asset/app/images/contents/event/2022/02/img_event_luckydraw9_05.jpg" alt="하단참조" />
+                                        <div class="blind">
+                                            <dl>
+                                                <dt>[2고진]</dt>
+                                                <dd>좌식 실내자전거 266R 온가족 헬스자전거 </dd>
+                                                <dd>최저가 : 325,000원</dd>
+                                                <dd>65% 할인 적용가 : 113,000</dd>
+                                            </dl>
+                                        </div>
+                                        <a href="javascript:void(0);" onclick="entryEvtCouponSubmit('1');" title="새창" class="product" style="bottom:9.23vw;"><img src="/lgekor/asset/app/images/contents/event/2022/02/img_event_luckydraw9_10.jpg" alt="응모하기" /></a>
+                                        <!-- <a href="javascript:goUrlOnNewBrowser('http://www.martsmart.shop/shop_view/?idx=1038');" title="새창" class="product" style="bottom:9.23vw;"><img src="/lgekor/asset/app/images/contents/event/2022/02/img_event_luckydraw9_11.jpg" alt="구매하기" /></a> -->
+
+                                        <a href="javascript:goUrlOnNewBrowser('http://www.martsmart.shop/shop_view/?idx=1038');" title="새창" class="product"></a>
+                                    </div>
+                                </li>
+                                <li data-evt-date="2022-3-28">
+                                    <div class="luckyInner">
+                                        <img src="/lgekor/asset/app/images/contents/event/2022/02/img_event_luckydraw9_06.jpg" alt="하단참조" />
+                                        <div class="blind">
+                                            <dl>
+                                                <dt>[포트메리온]</dt>
+                                                <dd>포트메리온 커피2p,커피받침2P, 원형접시(소 18cm)2p 스낵세트</dd>
+                                                <dd>최저가 : 153,600</dd>
+                                                <dd>61% 할인 적용가 : 59,000</dd>
+                                            </dl>
+                                        </div>
+                                        <a href="javascript:void(0);" onclick="entryEvtCouponSubmit('1');" title="새창" class="product" style="bottom:9.23vw;"><img src="/lgekor/asset/app/images/contents/event/2022/02/img_event_luckydraw9_10.jpg" alt="응모하기" /></a>
+                                        <!-- <a href="javascript:goUrlOnNewBrowser('http://www.martsmart.shop/shop_view/?idx=1039');" title="새창" class="product" style="bottom:9.23vw;"><img src="/lgekor/asset/app/images/contents/event/2022/02/img_event_luckydraw9_11.jpg" alt="구매하기" /></a> -->
+
+                                        <a href="javascript:goUrlOnNewBrowser('http://www.martsmart.shop/shop_view/?idx=1039');" title="새창" class="product"></a>
+                                    </div>
+                                </li>
+                                <li data-evt-date="2022-3-28">
+                                    <div class="luckyInner">
+                                        <img src="/lgekor/asset/app/images/contents/event/2022/02/img_event_luckydraw9_07.jpg" alt="하단참조" />
+                                        <div class="blind">
+                                            <dl>
+                                                <dt>[아2나비]</dt>
+                                                <dd>UHD 2채널 블랙박스 퀀텀 4K Pro 128GB(설치비 별도)</dd>
+                                                <dd>최저가 : 599,000원</dd>
+                                                <dd>54% 할인 적용가 : 275,000원</dd>
+                                            </dl>
+                                        </div>
+                                        <a href="javascript:void(0);" onclick="entryEvtCouponSubmit('1');" title="새창" class="product" style="bottom:9.23vw;"><img src="/lgekor/asset/app/images/contents/event/2022/02/img_event_luckydraw9_10.jpg" alt="응모하기" /></a>
+                                        <!-- <a href="javascript:goUrlOnNewBrowser('http://www.martsmart.shop/shop_view/?idx=1040');" title="새창" class="product" style="bottom:9.23vw;"><img src="/lgekor/asset/app/images/contents/event/2022/02/img_event_luckydraw9_11.jpg" alt="구매하기" /></a> -->
+
+                                        <a href="javascript:goUrlOnNewBrowser('http://www.martsmart.shop/shop_view/?idx=1040');" title="새창" class="product"></a>
+                                    </div>
+                                </li>
+                                <li data-evt-date="2022-3-28">
+                                    <div class="luckyInner">
+                                        <img src="/lgekor/asset/app/images/contents/event/2022/02/img_event_luckydraw9_08.jpg" alt="하단참조" />
+                                        <div class="blind">
+                                            <dl>
+                                                <dt>[닌텐도]</dt>
+                                                <dd>스위치 OL2D 필수 패키지</dd>
+                                                <dd>최저가 : 517,400원</dd>
+                                                <dd>52% 할인 적용가 : 245,000원</dd>
+                                            </dl>
+                                        </div>
+                                        <a href="javascript:void(0);" onclick="entryEvtCouponSubmit('1');" title="새창" class="product"><img src="/lgekor/asset/app/images/contents/event/2022/02/img_event_luckydraw9_10.jpg" alt="응모하기" /></a>
+                                        <!-- <a href="javascript:goUrlOnNewBrowser('http://www.martsmart.shop/shop_view/?idx=1041');" title="새창" class="product"><img src="/lgekor/asset/app/images/contents/event/2022/02/img_event_luckydraw9_11.jpg" alt="구매하기" /></a> -->
+
+                                        <a href="javascript:goUrlOnNewBrowser('http://www.martsmart.shop/shop_view/?idx=1041');" title="새창" class="product"></a>
+                                    </div>
+                                </li>
+                                <li data-evt-date="2022-3-28">
+                                    <div class="luckyInner">
+                                        <img src="/lgekor/asset/app/images/contents/event/2022/02/img_event_luckydraw9_09.jpg" alt="하단참조" />
+                                        <div class="blind">
+                                            <dl>
+                                                <dt>[잇메2트]</dt>
+                                                <dd>닭가슴살 스팀 21팩 2SET (총 42팩)</dd>
+                                                <dd>최저가 : 59,800원</dd>
+                                                <dd>63% 할인 적용가 : 22,000원</dd>
+                                            </dl>
+                                        </div>
+                                        <a href="javascript:void(0);" onclick="entryEvtCouponSubmit('1');" title="새창" class="product"><img src="/lgekor/asset/app/images/contents/event/2022/02/img_event_luckydraw9_10.jpg" alt="응모하기" /></a>
+                                        <!-- <a href="javascript:goUrlOnNewBrowser('http://www.martsmart.shop/shop_view/?idx=1042');" title="새창" class="product"><img src="/lgekor/asset/app/images/contents/event/2022/02/img_event_luckydraw9_11.jpg" alt="구매하기" /></a> -->
+
+                                        <a href="javascript:goUrlOnNewBrowser('http://www.martsmart.shop/shop_view/?idx=1042');" title="새창" class="product"></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="imgArea fullSize">
+                        <img src="/lgekor/asset/app/images/contents/event/2022/02/img_event_luckydraw9_12.jpg" alt="하단참조" />
+                        <div class="blind">
+                            <ul>
+                                <li>2/16 ~ 2/20 일 LG 전자 멤버십 앱 배너를 통해 응모 가능합니다.</li>
+                                <li>이벤트 응모 후 멤버십 탈퇴를 진행하신 고객은 쿠폰을 발송해드릴 수 없습니다.</li>
+                                <li>이벤트 신청 고객 본인만 사용이 가능합니다.</li>
+                                <li>유효기간 내 1회 사용이 가능하며 유효기간 연장은 불가합니다.</li>
+                                <li>본 쿠폰은 현금으로 환급이 불가하며 다른 쿠폰과 중복 적용이 불가합니다.</li>
+                                <li>할인 쿠폰은 멤버십 정보에 등록된 핸드폰 번호로 발송됩니다.</li>
+                                <li>당사 사정에 따라 이벤트 일정 및 내용이 고지없이 변경될 수 있습니다</li>
+                                <li>관련 문의 / 마트스마트 고객센터 : 1644 - 8607 (운영시간 10:00 - 17:00, 점심시간 12:30 - 13:30)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </article>
+
+        <div class="defaultbtnArea">
+            <a href="#none" class="defaultFormBtn">목록</a>
+        </div>
+
+        <!-- // 2024-02-11 -->
+        <footer class="defaultFooter">
+            <div class="scrollTopArea">
+                <a href="#none" class="btnTop">TOP</a>
+            </div>
+
+            <a href="javascript:;" class="fLogo">LG전자 <em></em></a>
+            <div class="footerAddress">
+                <div class="addressWrap">
+                    <dl>
+                        <dt>대표이사 : </dt>
+                        <dd>권봉석, 배두용</dd>
+                        <dt>사업자등록번호 : </dt>
+                        <dd>107-86-14075</dd>
+                    </dl>
+                    <dl>
+                        <dt>통신판매업신고번호 : </dt>
+                        <dd>제1997-00084호</dd>
+                    </dl>
+                    <dl>
+                        <dt>대표번호 : </dt>
+                        <dd>02-3777-1114</dd>
+                    </dl>
+                    <dl>
+                        <dt>주소 : </dt>
+                        <dd>서울시 영등포구 여의대로 128 LG트윈타워</dd>
+                    </dl>
+                    <dl>
+                        <dt>제품 및 서비스 문의 : </dt>
+                        <dd class="defaultColor"><a href="javascript:callPhone('1544-7777');">1544-7777</a></dd>
+                    </dl>
+                </div>
+
+                <p class="guideTxt">본 사이트의 모든 컨텐츠는 저작권법의 보호를 받는 바, <br>무단전재, 복사, 배포 등을 금합니다.</p>
+                <span class="copyRight">Copyright &copy; 2021 LG Electronics. All Rights Reserved.</span>
+            </div>
+
+            <ul class="footerUtill">
+                <li><a href="#">LG전자 개인정보처리방침</a></li>
+                <li><a href="#">LG전자 위치정보서비스 이용약관</a></li>
+                <li><a href="#">멤버십 개인정보처리방침</a></li>
+                <!-- <li><a href="#">멤버십 위치정보서비스 이용약관</a></li> -->
+                <li><a href="#">멤버십 위치정보서비스 이용약관</a></li>
+                <li><a href="#">LG전자 서비스 이용약관</a></li>
+                <li><a href="#">멤버십 서비스 이용약관</a></li>
+                <li><a href="#">앱 접근권한 안내</a></li>
+            </ul>
+        </footer>
+        <!-- // 2021-04-15 -->
+    </section>
+
+    <!-- 2018-05-11 alert popup 추가 -->
+    <section class="defaultAlertPopWrap">
+        <div class="container">
+            <header class="defaultAlertPopHeader">
+                <a href="#none" class="popCloseIconBtn"><span class="blind">닫기</span></a>
+            </header>
+
+            <article class="defaultAlertPopContents">
+                <div class="alertInfoWrap">
+                    <p class="desc">멤버십 회원만 응모 가능합니다.</p>
+                </div>
+            </article>
+
+            <div class="defaultAlertFooter">
+                <a href="#none" class="defaultFormBtn">멤버십 가입</a>
+                <a href="#none" class="defaultSubFormBtn">로그인</a>
+            </div>
+        </div>
+    </section>
+    <!-- //2018-05-11 alert popup 추가 -->
+
+    <!-- ui 스크립트 -->
+    <script type="text/javascript" src="/lgekor/asset/app/js/lib/jquery-barcode.min.js"></script>
+    <script type="text/javascript" src="/lgekor/asset/app/js/lib/swiper.min.js"></script>
+    <script type="text/javascript" src="/lgekor/asset/app/js/lib/selectordie.min.js"></script>
+    <script type="text/javascript" src="/lgekor/asset/app/js/common/ui.js"></script>
+
+    <!-- 2024-03-15 -->
+    <script>
+        $(function() {
+            var $itemList = $('.luckydrawList2 > li');
+            $itemList.each(function(i) {
+                var itemDate = $(this).data('evtDate').split('-'),
+                    today = Date.now(),
+                    startTime,
+                    endTime,
+                    itemState; // coming soon || open
+                startTime = new Date(itemDate[0], itemDate[1] - 1, itemDate[2], 19, 29, 00); // 시작시간
+                endTime = new Date(itemDate[0], itemDate[1] - 1, Number(itemDate[2]) + 1, 19, 52, 00); // 오픈시간
+                $(this).prepend('<span class="luckyDate">' + itemDate[1] + '.' + itemDate[2] + '</span>'); // 2021-12-01 추가
+                console.log(itemDate[1] - 1)
+                if (today > startTime.getTime() && today < endTime.getTime()) { // coming Soon 
+                    itemState = `<div class="overlay">
+									<span><img src="/lgekor/asset/app/images/contents/event/2024/01/img_event_luckydraw8_${i<8? '0'+(i+5) : i+5}_time.png" alt="COMING SOON ${itemDate[1]}월 ${itemDate[2]}일 오전 10시"></span>
+								</div>`;
+                } else if (today > endTime.getTime()) { // open
+                    itemState = ``;
+                    /* $('.luckydrawList2').append($(this)); */
+                }
+                if (itemState != undefined) {
+                    $(this).find('.luckyInner').append(itemState);
+                }
+            });
+        });
+    </script>
+    <!-- // 2024-03-15 -->
+</body>
+
+</html>
